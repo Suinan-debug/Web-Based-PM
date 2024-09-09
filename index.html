@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Pila Museum - ARTSOFVINCE</title>
+  </head>
+
+  <style></style>
+
+  <body>
+    <!-- Scripts -->
+    <script src="js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/swiper-script.js"></script>
+    <script src="js/submit-form.js"></script>
+    <script src="js/vendor/isotope.pkgd.min.js"></script>
+    <script src="js/video_embedded.js"></script>
+
+    <!-- Header -->
+    <div class="sticky-top py-2 bg-dark-color">
+      <div class="r-container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <div class="logo-container">
+              <img src="image/logo1.png" alt="" class="img-fluid" />
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+            <div
+              class="collapse navbar-collapse pt-lg-0 pt-3"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >HOME</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <!-- <a
+                    class="nav-link"
+                    aria-current="page"
+                
+                    href="https://simsonsui.itch.io/app-pm"
+                    >Virtual Museum</a
+                  > -->
+                  <a
+                    class="nav-link"
+                    aria-current="page"
+                    href="virtualTour.html"
+                    >VIRTUAL MUSEUM</a
+                  >
+                </li>
+
+                <!-- <iframe width="552" height="167" frameborder="0" src="https://itch.io/embed/2960183"><a href="https://simsonsui.itch.io/app-pm">App PM by SimsonSui</a></iframe> -->
+
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="about_us.html">ABOUT</a>
+                </li> -->
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    COLLECTION
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="portfolio.html"
+                        >CERAMIC ARTIFACTS</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="project_detail.html"
+                        >NON-CERAMIC ARTIFACTS</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="project_detail.html"
+                        >RECONSTRUCTION OF ANCIENT RITUALS</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <!-- <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    PAGE
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+                    <li>
+                      <a class="dropdown-item" href="blog.html"
+                        >BLOG ARCHIVES</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="single_post.html"
+                        >SINGLE POST</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="pricing.html"
+                        >PRICING PLAN</a
+                      >
+                    </li>
+                  </ul>
+                </li> -->
+                <li class="nav-item">
+                  <p></p>
+                  <a
+                    class="btn button accent-color button-outline rounded-0 hover-transform"
+                    href="contact.html"
+                    >DOWNLOAD APP</a
+                  >
+                  <!-- <a
+                  href="portfolio.html"
+                  class=" nav-linkpx-4 py-2 btn button accent-color button-outline rounded-0 fw-bold font-1 hover-transform"
+                >
+                  SEE ALL PROJECT
+                </a> -->
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- End Of Header -->
+
+    <main class="text-white">
+      <!-- BANNER -->
+      <section
+        class="section position-relative"
+        style="background-image: url(image/bg1.png); height: 90vh"
+      >
+        <div class="image-overlay"></div>
+        <div
+          class="r-container position-relative w-100 h-100"
+          style="z-index: 2"
+        >
+          <div
+            class="d-flex flex-column justify-content-center align-items-center text-center h-100"
+          >
+            <h5 class="font-1 fs-3 ls-2 fw-bold">
+              WELCOME TO OUR VIRTUAL MUSEUM
+            </h5>
+            <h1 class="font-2 lh-1 fw-bold">
+              EXPLORE & DISCOVER <br />
+              <span class="accent-color"> PILA MUSEUM</span>
+            </h1>
+            <p class="mx-auto" style="max-width: 768px">
+              Featured Exhibit: The Pila Heritage Collection<br />
+              Explore the rich history and cultural heritage of Pila through a
+              curated selection of artifacts, photographs, and interactive
+              displays.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="section position-relative" style="margin-top: -150px">
+        <div class="r-container">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+            <div class="col">
+              <div class="d-flex h-100 align-items-center p-4">
+                <img src="image/award1.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="d-flex h-100 align-items-center p-4">
+                <img src="image/award2.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="d-flex h-100 align-items-center p-4">
+                <img src="image/award1.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="d-flex flex-column p-4 bg-accent-color">
+                <h5 class="font-2 fw-bold">
+                  WE ARE THE BEST STUDIO PRODUCTION
+                </h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- CINESTER STUDIO -->
+      <section class="section">
+        <div class="r-container">
+          <div class="d-flex flex-column gap-2">
+            <div class="row row-cols-1 row-cols-lg-2">
+              <div class="col">
+                <h5 class="accent-color lh-1 ls-2 fw-bold font-1">
+                  TREASURE OF PILA
+                </h5>
+                <h3 class="font-2 lh-1 fw-bold">"BAYANG PINAGPALA"</h3>
+              </div>
+              <div class="col d-flex align-items-center">
+                <p
+                  style="
+                    text-align: justify;
+                    line-height: 2;
+                    text-indent: 50px;
+                    font-size: 2vh;
+                  "
+                >
+                  “Bayang Pinagpala" is Pila's endeared name. It is a town
+                  blessed with a long history of noble existence and
+                  doubly-blessed with evidence of its glorious origins. In the
+                  declaration of the town center as a National Historical
+                  Landmark, the National Historical Institute (NHI) cites these
+                  documented treasures.
+                </p>
+              </div>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-2">
+              <div class="col col-lg-7 mb-3">
+                <div
+                  class="shadow d-flex justify-content-center align-items-center video-container"
+                  style="background-image: url(image/bg2.png)"
+                >
+                  <div class="img-overlay"></div>
+                  <div></div>
+                </div>
+              </div>
+              <div class="col col-lg-5 mb-3" style="">
+                <div class="d-flex flex-column ps-lg-4">
+                  <br />
+                  <p
+                    style="text-align: justify; line-height: 2; font-size: 2vh"
+                  >
+                    <i>
+                      "...Pila... has been recognized as one of the country's
+                      more important archaeological sites... Pila was honored
+                      with the name of La Noble Villa de Pila by the Spaniards
+                      because of the genteel customs, refined manners and
+                      traditions of the people; Pila is one of the few existing
+                      towns in the Philippines that preserves the Spanish
+                      colonial town planning system for the Indies... ... the
+                      structures of Pila reflect a rich and varied architectural
+                      history..."
+                    </i>
+                  </p>
+                  <p
+                    style="
+                      text-align: justify;
+                      line-height: 2;
+                      text-indent: 50px;
+                      font-size: 2vh;
+                    "
+                  >
+                    The events that led to this declaration began with the
+                    Locsin-University of San Carlos and the Elizalde-Esso
+                    Standard Philippines excavations of the 1960s. The priceless
+                    finds of that era first put Pila on the archaeological map.
+                    It was the primary research of Dr. Luciano P.R. Santiago,
+                    M.D., however, that established the historical milieu for
+                    the artifacts recovered. His unpublished study, "The Roots
+                    of Pila, Laguna- A Secular and Spiritual History of the
+                    Town," formed the basis for the NHI's declaration in May
+                    2000.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row row-cols-1 row-cols-lg-1">
+              <div class="col d-flex align-items-center">
+                <p
+                  style="
+                    text-align: justify;
+                    line-height: 2;
+                    text-indent: 50px;
+                    font-size: 2vh;
+                  "
+                >
+                  Treasures of Pila pays tribute to these archaeological and
+                  historical research, which have been conducted on the town and
+                  its people over the years.
+                  <br />
+
+                  As fate would have it, Pila was once again doubly-blessed.
+                  Initially, the National Commission on Culture and the Arts
+                  (NCCA) awarded to the town a grant from Sen. Teresa Aquino
+                  Oreta's Countrywide Development Fund (CDF). Eventually, when
+                  asked to do the honors, Cynthia Ongpin Valdes leading
+                  authority on oriental ceramics-agreed to author a research
+                  paper on Pila Museum's artifacts.
+                  <br />
+                  Spearheaded by the Pila Historical Society Foundation, Inc.
+                  (PHSFI)-which earlier worked for Pila's declaration as a
+                  National Historical Landmark and the transfer of the museum
+                  artifacts to its present site the publication is a
+                  collaboration among adopted Pileños Ramiro Cabrera and Carolyn
+                  Dedolph, and Pileños Dr. Luciano P.R. Santiago, Elizabeth
+                  Miranda, Cora Relova and Monina Rivera (all PHSFI members).
+                  Mayor Wilfredo Quiat's unwavering support played a vital role
+                  in its realization. So did the cooperation of the Pila
+                  Municipal Tourism Council.
+                  <br />
+                  <i> Treasures of Pila </i> is a guidebook-an eye opener
+                  towards a deeper understanding and appreciation of the
+                  artifacts and old structures, of the founders and builders of
+                  the town to whom the honor Pila now reaps really belong. More
+                  importantly, it is an affirmation of the Pileños' resolve to
+                  live its history of nobility and culture.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PORTFOLIO -->
+      <section class="section bg-secondary-dark">
+        <div class="r-container">
+          <div class="d-flex flex-column">
+            <h5 class="accent-color lh-1 ls-2 fw-bold font-1">ARTIFACTS</h5>
+            <h3 class="font-2 lh-1 fw-bold">MUSEUM COLLECTION</h3>
+            <div class="my-5">
+              <div class="swiper-video">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <div
+                      class="shadow d-flex justify-content-center align-items-center video-container"
+                      style="background-image: url(image/bg6.png)"
+                    >
+                      <div class="img-overlay"></div>
+                      <a
+                        href="Ceramic.html"
+                        class="px-4 py-2 btn button accent-color button1 button-outline rounded-0 fw-bold font-1 hover-transform"
+                      >
+                        VIEW COLLECTION
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="shadow d-flex justify-content-center align-items-center video-container"
+                      style="background-image: url(image/bg7.png)"
+                    >
+                      <div class="img-overlay"></div>
+                      <a
+                        href="portfolio.html"
+                        class="px-4 py-2 btn button accent-color button1 button-outline rounded-0 fw-bold font-1 hover-transform"
+                      >
+                        VIEW COLLECTION
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="shadow d-flex justify-content-center align-items-center video-container"
+                      style="background-image: url(image/bg8.png)"
+                    >
+                      <div class="img-overlay"></div>
+                      <a
+                        href="portfolio.html"
+                        class="px-4 py-2 btn button accent-color button1 button-outline rounded-0 fw-bold font-1 hover-transform"
+                      >
+                        VIEW COLLECTION
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="row row-cols-1 row-cols-lg-2">
+              <div class="col">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Quisque lectus velit, iaculis quis mauris et, dignissim
+                  hendrerit ex. Nulla ultrices vel tellus lacinia pharetra.
+                  Integer commodo ligula lobortis sapien vehicula placerat eu id
+                  tellus. Ut faucibus neque eget dui rutrum, in hendrerit diam
+                  euismod. Nam congue diam nulla, vitae sagittis lorem bibendum
+                  eu. Curabitur eu ex pulvinar massa convallis ornare.
+                </p>
+              </div>
+              <div class="col">
+                <div class="d-flex flex-column">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                    elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
+                    leo. Proin interdum dignissim maximus. Interdum et malesuada
+                    fames ac ante ipsum primis in faucibus.
+                  </p>
+                  <div
+                    class="d-flex flex-lg-row flex-column gap-lg-5 gap-3 py-3"
+                  >
+                    <a
+                      href="portfolio.html"
+                      class="px-4 py-2 btn button accent-color button-outline rounded-0 fw-bold font-1 hover-transform"
+                    >
+                      SEE ALL PROJECT
+                    </a>
+                    <a
+                      href="pricing.html"
+                      class="px-4 py-2 btn button rounded-0 fw-bold font-1 hover-transform"
+                    >
+                      START THE PROJECT
+                      <i class="fa-solid fa-arrow-right ms-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section class="section position-relative bg-secondary-dark">
+        <div class="texture-overlay"></div>
+        <div class="r-container position-relative" style="z-index: 2">
+          <div class="r-container">
+            <div class="d-flex flex-column">
+              <div class="row row-cols-1 row-cols-lg-1">
+                <div class="col">
+                  <h5 class="accent-color lh-1 ls-2 fw-bold font-1">
+                    DISCOVER PILA'S PAST
+                  </h5>
+                  <h3 class="font-2 lh-1 fw-bold">
+                    Embark on a virtual journey through time and immerse
+                    yourself in the captivating stories of Pila. Our museum
+                    showcases the town's evolution from its pre-colonial roots
+                    to its present-day vibrancy.
+                  </h3>
+                </div>
+                <br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- STORY -->
+      <!-- <section class="section">
+        <div class="r-container">
+          <div class="row row-cols-1 row-cols-lg-2">
+            <div class="col col-lg-5">
+              <div class="d-flex flex-column gap-3">
+                <h5 class="accent-color lh-1 ls-2 fw-bold font-1">STORY</h5>
+                <h3 class="font-2 lh-1 fw-bold">STORY BEHIND CINESTAR</h3>
+                <p>
+                  Aliquam ex lacus, venenatis id finibus ut, scelerisque at
+                  felis. Nulla facilisi. Sed fringilla enim consectetur cursus
+                  euismod. Sed vel magna in ex malesuada rhoncus ac a turpis.
+                </p>
+                <p>
+                  ” Vivamus quam lectus, facilisis a massa facilisis, imperdiet
+                  maximus nunc. Integer ut metus eget lectus imperdiet pulvinar
+                  in ac urna “
+                </p>
+                <div>
+                  <h5 class="accent-color font-2 m-0">DYAS KARDINAL</h5>
+                  <span>CEO OF CINESTAR</span>
+                </div>
+              </div>
+            </div>
+            <div class="col col-lg-7">
+              <img src="image/image-900x600-4.jpg" alt="" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- TESTIMONIAL -->
+      <!-- <section class="section">
+        <div class="r-container">
+          <div class="d-flex flex-column text-center">
+            <h5 class="accent-color lh-1 ls-2 fw-bold font-1">TESTIMONIAL</h5>
+            <h3 class="font-2 lh-1 fw-bold">
+              WHAT THEY SAY ABOUT OUR STUDIO ?
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            </p>
+            <div class="overflow-hidden text-start">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="d-flex flex-column p-4 gap-3 bg-secondary-dark">
+                      <ul
+                        class="d-flex flex-row gap-2 m-0 p-0"
+                        style="list-style: none"
+                      >
+                        <li class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        </li>
+                      </ul>
+                      <p>
+                        Pellentesque habitant morbi tristique senectus et netus
+                        et malesuada fames ac turpis egestas. Quisque eget metus
+                        id eros varius venenatis ut sed mauris. Aliquam tempus
+                      </p>
+                      <div
+                        class="d-flex flex-row justify-content-between align-items-center"
+                      >
+                        <div>
+                          <h6 class="accent-color m-0 font-1 fw-bold">
+                            DYAS KARDINAL
+                          </h6>
+                          <span>Designation</span>
+                        </div>
+                        <span class="fs-1 text-gray m-0"
+                          ><i class="fa-solid fa-quote-right"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="d-flex flex-column p-4 gap-3 bg-secondary-dark">
+                      <ul
+                        class="d-flex flex-row gap-2 m-0 p-0"
+                        style="list-style: none"
+                      >
+                        <li class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        </li>
+                      </ul>
+                      <p>
+                        Pellentesque habitant morbi tristique senectus et netus
+                        et malesuada fames ac turpis egestas. Quisque eget metus
+                        id eros varius venenatis ut sed mauris. Aliquam tempus
+                      </p>
+                      <div
+                        class="d-flex flex-row justify-content-between align-items-center"
+                      >
+                        <div>
+                          <h6 class="accent-color m-0 font-1 fw-bold">
+                            MUTIARA ELSA
+                          </h6>
+                          <span>Designation</span>
+                        </div>
+                        <span class="fs-1 text-gray m-0"
+                          ><i class="fa-solid fa-quote-right"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="d-flex flex-column p-4 gap-3 bg-secondary-dark">
+                      <ul
+                        class="d-flex flex-row gap-2 m-0 p-0"
+                        style="list-style: none"
+                      >
+                        <li class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        </li>
+                      </ul>
+                      <p>
+                        Pellentesque habitant morbi tristique senectus et netus
+                        et malesuada fames ac turpis egestas. Quisque eget metus
+                        id eros varius venenatis ut sed mauris. Aliquam tempus
+                      </p>
+                      <div
+                        class="d-flex flex-row justify-content-between align-items-center"
+                      >
+                        <div>
+                          <h6 class="accent-color m-0 font-1 fw-bold">
+                            HENDRIK MORELA
+                          </h6>
+                          <span>Designation</span>
+                        </div>
+                        <span class="fs-1 text-gray m-0"
+                          ><i class="fa-solid fa-quote-right"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="d-flex flex-column p-4 gap-3 bg-secondary-dark">
+                      <ul
+                        class="d-flex flex-row gap-2 m-0 p-0"
+                        style="list-style: none"
+                      >
+                        <li class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        </li>
+                      </ul>
+                      <p>
+                        Pellentesque habitant morbi tristique senectus et netus
+                        et malesuada fames ac turpis egestas. Quisque eget metus
+                        id eros varius venenatis ut sed mauris. Aliquam tempus
+                      </p>
+                      <div
+                        class="d-flex flex-row justify-content-between align-items-center"
+                      >
+                        <div>
+                          <h6 class="accent-color m-0 font-1 fw-bold">
+                            DEKASYAH KANDIS
+                          </h6>
+                          <span>Designation</span>
+                        </div>
+                        <span class="fs-1 text-gray m-0"
+                          ><i class="fa-solid fa-quote-right"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="d-flex flex-column p-4 gap-3 bg-secondary-dark">
+                      <ul
+                        class="d-flex flex-row gap-2 m-0 p-0"
+                        style="list-style: none"
+                      >
+                        <li class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        </li>
+                      </ul>
+                      <p>
+                        Pellentesque habitant morbi tristique senectus et netus
+                        et malesuada fames ac turpis egestas. Quisque eget metus
+                        id eros varius venenatis ut sed mauris. Aliquam tempus
+                      </p>
+                      <div
+                        class="d-flex flex-row justify-content-between align-items-center"
+                      >
+                        <div>
+                          <h6 class="accent-color m-0 font-1 fw-bold">
+                            PAYAH SHA
+                          </h6>
+                          <span>Designation</span>
+                        </div>
+                        <span class="fs-1 text-gray m-0"
+                          ><i class="fa-solid fa-quote-right"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="d-flex flex-column p-4 gap-3 bg-secondary-dark">
+                      <ul
+                        class="d-flex flex-row gap-2 m-0 p-0"
+                        style="list-style: none"
+                      >
+                        <li class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        </li>
+                      </ul>
+                      <p>
+                        Pellentesque habitant morbi tristique senectus et netus
+                        et malesuada fames ac turpis egestas. Quisque eget metus
+                        id eros varius venenatis ut sed mauris. Aliquam tempus
+                      </p>
+                      <div
+                        class="d-flex flex-row justify-content-between align-items-center"
+                      >
+                        <div>
+                          <h6 class="accent-color m-0 font-1 fw-bold">
+                            BERLIN SENDUN
+                          </h6>
+                          <span>Designation</span>
+                        </div>
+                        <span class="fs-1 text-gray m-0"
+                          ><i class="fa-solid fa-quote-right"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- BLOG -->
+      <section class="section bg-secondary-dark">
+        <div class="r-container">
+          <div class="d-flex flex-column">
+            <div class="row row-cols-1 row-cols-lg-2">
+              <div class="col">
+                <h5 class="accent-color lh-1 ls-2 fw-bold font-1">BLOG</h5>
+                <h3 class="font-2 lh-1 fw-bold">EXPLORE MORE</h3>
+              </div>
+              <br />
+            </div>
+            <div class="row row-cols-1 row-cols-lg-3">
+              <div class="col mb-3">
+                <div class="card h-100 rounded-0 p-1 bg-transparent">
+                  <img src="image/bg3.png" class="img-fluid" alt="..." />
+                  <div class="card-body">
+                    <a href="PilainAncientTime.html" class="link font-1">
+                      <h5>PILA IN ANCIENT TIMES</h5>
+                    </a>
+                    <p>By Cynthia Ongpin Valdes</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-3">
+                <div class="card h-100 rounded-0 p-1 bg-transparent">
+                  <img src="image/bg4.png" class="img-fluid" alt="..." />
+                  <div class="card-body">
+                    <a href="PilaTheNobleTown.html" class="link font-1">
+                      <h5>PILA: THE NOBLE TOWN</h5>
+                    </a>
+                    <p>By Dr. Luciano P.R. Santiago, M.D.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-3">
+                <div class="card h-100 rounded-0 p-1 bg-transparent">
+                  <img src="image/bg5.png" class="img-fluid" alt="..." />
+                  <div class="card-body">
+                    <a href="single_post.html" class="link font-1">
+                      <h5>PILA LAGUNA <i> "BAYANG PINAGPALA" </i></h5>
+                    </a>
+                    <p>
+                      Written by: Ms. Cora Relova
+                      <br />Researched by: Dr. Luciano P.R. Santiago
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="text-white">
+      <!-- <section class="section py-5 border-top border-2">
+        <div class="r-container">
+          <div
+            class="d-flex flex-column justify-content-center align-items-center text-center"
+          >
+            <h3 class="font-2 mb-3">
+              HAVE IDEA IN YOUR MIND ? LET'S START YOUR PROJECT WITH US
+            </h3>
+            <h5 class="font-1 mb-5 fw-bold accent-color">
+              CINESTAR STUDIO, +123-456-789 OR HELLO@AWESOMESITE.COM
+            </h5>
+            <div class="d-flex flex-row flex-wrap gap-4 justify-content-center">
+              <a href="https://www.facebook.com" class="font-2 link-social"
+                >FACEBOOK</a
+              >
+              <a href="https://www.twitter.com" class="font-2 link-social"
+                >TWITTER</a
+              >
+              <a href="https://www.linkedin.com" class="font-2 link-social"
+                >LINKEDIN</a
+              >
+              <a href="https://www.instagram.com" class="font-2 link-social"
+                >INSTAGRAM</a
+              >
+              <a href="https://www.youtube.com" class="font-2 link-social"
+                >YOUTUBE</a
+              >
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <div class="py-3 position-relative bg-secondary-dark">
+        <div class="texture-overlay"></div>
+        <div class="r-container position-relative" style="z-index: 2">
+          <div
+            class="d-flex flex-lg-row flex-column text-center gap-3 justify-content-between align-items-center"
+          >
+            <div class="logo-container">
+              <img src="image/logo1.png" alt="" class="img-fluid" />
+            </div>
+            <span> COPYRIGHT 2024 © VIRTUAL PILA MUSEUM | ARTSOFVINCE </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/vendor/fslightbox.js"></script>
+  </body>
+</html>
